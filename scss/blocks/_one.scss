@@ -1,0 +1,114 @@
+.one {
+    margin: 0;
+    padding: 0;
+    top: 70px;
+    left: 40px;
+    display: flex;
+    max-width: 763px;
+    margin-bottom: 104px;
+    position: relative;
+
+    &__left {
+        margin: 15px 0;
+        padding: 0;
+        display: flex;
+        margin-right: 120px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__left-part {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__child {
+        margin: 0;
+        padding: 0;
+        margin-right: 48px;
+        font-size: 18px;
+        color: #000000;
+        line-height: 22px;
+        font-style: normal;
+        font-weight: normal;
+        align-items: center;
+        font-family: $project-font, sans-serif;   
+    }
+
+    &__left-child {
+        margin-right: 15px;
+    }
+
+    &__image {
+        max-width: 14px;
+        margin-right: 44px;
+    }
+
+    &__image-s {
+        margin: 0;
+        margin: 18px 16px;
+        background-color: #ffffff;
+
+    }
+
+    &__right {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__right-child {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__right-info {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        font-size: 16px;
+        color: #000000;
+        line-height: 20px;
+        font-style: normal;
+        margin-right: 47px;
+        margin-bottom: 43px;
+        font-weight: normal;
+        align-items: center;
+        font-family: $project-font;
+    }
+
+    &__link {
+        margin: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin-bottom: 43px;
+        min-width: 166px;
+        border-radius: 4px;
+        padding: 18px 130px 18px 22px;
+        background-color: #fff;
+        text-decoration: none;
+    }
+
+    &__link-u {
+        color: #949494;
+    }
+
+    &__link-o {
+        border: 1px solid #ffbd54;
+    }
+
+    &__link-e {
+        color: #dc4d41;
+        border: 1px solid #dc4d41;
+    }
+}

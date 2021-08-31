@@ -1,0 +1,194 @@
+.middle-section {
+    top: 92px;
+    left: 41px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 1083px;
+    position: relative;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    &__simple {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #000000;
+        line-height: 19px;
+        font-style: normal;
+        font-weight: normal;
+        margin-right: 73px;
+        margin-bottom: 454px;
+        font-family: $project-font, sans-serif;
+    }
+
+    &__first {
+        margin-right: 24px;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 43px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+    }
+
+    &__image {
+        width: 305px;
+        height: 180px;
+    }
+
+    &__hour {
+        top: 21px;
+        bottom: 2px;
+        margin: 0;
+        padding: 0;
+        width: 71px;
+        height: 18px;
+        left: 230px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;        
+        position: relative;
+    }
+
+    &__title {
+        width: 182px;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+    &__text {
+        width: 244px;
+        margin: 10px 30px;
+        padding: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+
+    &__right--link {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-top: 27px;
+        position: relative;
+        margin-left: 50px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 36px;
+        line-height: 21px;
+        color: #333333;
+        text-decoration: none;
+        
+        &::before {
+            content: "";
+            display: inline-block;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: -25px;
+            position: absolute;
+            background-position: left;
+            background-size: 23px 21px;
+            background-repeat: no-repeat;
+            background-image: url("/images/foot.svg");
+        }      
+    }
+
+    &__right--link-v {
+        color: #ffbd54;
+    }
+
+    &__picture {
+        width: 305px;
+        height: 435px;
+    }
+
+    &__first-top {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    &__first-span {
+        margin: 0;
+        padding: 0;
+        margin-right: 7px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3D9CEA;        
+    }
+
+    &__first-time {
+        margin: 0;
+        padding: 0;
+        margin-left: 67px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+    }
+
+    &__heading {
+        width: 193px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 29px;
+        color: #333333;        
+    }
+
+    &__letter {
+        width: 270px;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+    }
+}
